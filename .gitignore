@@ -1,0 +1,4 @@
+*.exe
+desktop.ini
+.vscode/
+DSA c++.code-workspace

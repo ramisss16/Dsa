@@ -1,0 +1,18 @@
+
+// lecture no. - 32 (problem on recursion)
+// Given a no.s x and y. find the greatest common divisor of x and y using recursion
+
+#include<iostream>
+using namespace std;
+
+int gcd(int a , int b){
+    if(b>a) return gcd(b,a);
+    if(b==0) return a; // base case
+    return gcd(b,a%b);
+}
+int main() {
+int x= gcd(40,48);
+cout<<x<<endl;
+
+    return 0;
+}
