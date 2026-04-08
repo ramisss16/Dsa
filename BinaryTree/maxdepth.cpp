@@ -19,7 +19,7 @@ int maxdepth(Node* Rootnode){
         return 0;
     }
 
-    // recursive ase
+    // recursive case
     int leftdepth = maxdepth(Rootnode->left);
     int rightdepth = maxdepth(Rootnode->right);
 
