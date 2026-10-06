@@ -20,3 +20,11 @@ public:
        return v[rowIndex];
     }
 };
+
+// // without using extra space only using o(rowIndex) space
+// class Solution {
+// public:
+//     vector<int> getRow(int rowIndex) {
+       
+//     }
+// };
